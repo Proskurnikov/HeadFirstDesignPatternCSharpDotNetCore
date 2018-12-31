@@ -6,7 +6,8 @@ namespace strategy
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("*** Strategy ***");
+            //TODO: Add main program for strategy
         }
     }
 }
