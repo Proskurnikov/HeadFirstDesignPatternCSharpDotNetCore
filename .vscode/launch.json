@@ -9,7 +9,7 @@
            "type": "coreclr",
            "request": "launch",
            "preLaunchTask": "buildObserver",
-           "program": "${workspaceFolder}/src/Observerl/bin/Debug/netcoreapp2.1/Observer.dll",
+           "program": "${workspaceFolder}/src/Observer/Observer/bin/Debug/netcoreapp2.1/Observer.dll",
            "args": [],
            "cwd": "${workspaceFolder}/src/Observer",
            "stopAtEntry": false,
@@ -21,7 +21,7 @@
             "request": "launch",
             "preLaunchTask": "buildStrategy",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/src/strategy/bin/Debug/netcoreapp2.1/strategy.dll",
+            "program": "${workspaceFolder}/src/strategy/strategy/bin/Debug/netcoreapp2.1/strategy.dll",
             "args": [],
             "cwd": "${workspaceFolder}/src/strategy",
             // For more information about the 'console' field, see https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md#console-terminal-window

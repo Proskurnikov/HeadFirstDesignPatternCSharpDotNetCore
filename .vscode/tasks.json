@@ -17,7 +17,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/src/Observer/Observer.csproj"
+                "${workspaceFolder}/src/Observer/Observer.sln"
             ],
             "problemMatcher": "$msCompile"
         },
