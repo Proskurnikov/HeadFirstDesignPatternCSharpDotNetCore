@@ -21,15 +21,14 @@
             "request": "launch",
             "preLaunchTask": "buildStrategy",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/src/strategy/strategy/bin/Debug/netcoreapp2.1/strategy.dll",
+            "program": "${workspaceFolder}/src/Strategy/Strategy/bin/Debug/netcoreapp2.1/Strategy.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/src/strategy",
+            "cwd": "${workspaceFolder}/src/Strategy",
             // For more information about the 'console' field, see https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md#console-terminal-window
             "console": "internalConsole",
             "stopAtEntry": false,
             "internalConsoleOptions": "openOnSessionStart"
         },
-        //TODO: Add launch configuration for observer pattern
         {
             "name": ".NET Core Attach",
             "type": "coreclr",

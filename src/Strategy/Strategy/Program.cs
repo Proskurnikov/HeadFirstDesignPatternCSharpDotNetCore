@@ -7,6 +7,7 @@ namespace Strategy
         static void Main(string[] args)
         {
             Console.WriteLine("*** Strategy ***");
+            //TODO: Add strategy
         }
     }
 }
