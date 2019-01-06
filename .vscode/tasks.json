@@ -7,7 +7,8 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/src/Strategy/Strategy.sln"
+                "${workspaceFolder}/src/Strategy/Strategy.sln",
+                "/p:DefineConstants=vscode"
             ],
             "problemMatcher": "$msCompile"
         },

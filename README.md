@@ -4,5 +4,18 @@
 
 This is C# code done with .Net Core 2 and VS Code 1.3.
 
-<!-- (## How to use) -->
-[//]: # (//TODO: Add how to use)
+## How to use
+
+It can be run with Visual Studio or VS Code (and CLI of course)
+
+<!--TODO:Add gif VS and VS Code How to run -->
+
+### Some additional information
+
+"\#define vscode" directives were added in task.json ("dotnet build \<\<sln name>> /p:DefineConstants=vscode") and in every Program.cs were added "\#if (!vscode)".
+
+It were added for run from VS in order to console window will keep open
+
+## Strategy
+
+SimpleQuack is like Quack class in the book. This name was changed because msbuild compiler said "'Quack': member names cannot be the same as their enclosing type [Strategy]"
