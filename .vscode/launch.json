@@ -4,15 +4,26 @@
    // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
    "version": "0.2.0",
    "configurations": [
+       {
+           "name": "Observer .NET Core Launch (console)",
+           "type": "coreclr",
+           "request": "launch",
+           "preLaunchTask": "buildObserver",
+           "program": "${workspaceFolder}/src/Observer/Observer/bin/Debug/netcoreapp2.1/Observer.dll",
+           "args": [],
+           "cwd": "${workspaceFolder}/src/Observer",
+           "stopAtEntry": false,
+           "console": "internalConsole"
+       },
         {
-            "name": ".NET Core Launch (console)",
+            "name": "Strategy .NET Core Launch (console)",
             "type": "coreclr",
             "request": "launch",
-            "preLaunchTask": "build",
+            "preLaunchTask": "buildStrategy",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/src/strategy/bin/Debug/netcoreapp2.1/strategy.dll",
+            "program": "${workspaceFolder}/src/Strategy/Strategy/bin/Debug/netcoreapp2.1/Strategy.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/src/strategy",
+            "cwd": "${workspaceFolder}/src/Strategy",
             // For more information about the 'console' field, see https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md#console-terminal-window
             "console": "internalConsole",
             "stopAtEntry": false,

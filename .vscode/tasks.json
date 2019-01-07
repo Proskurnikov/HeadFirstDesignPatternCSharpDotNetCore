@@ -2,14 +2,25 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build",
+            "label": "buildStrategy",
             "command": "dotnet",
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/src/strategy/strategy.csproj"
+                "${workspaceFolder}/src/Strategy/Strategy.sln",
+                "/p:DefineConstants=vscode"
             ],
             "problemMatcher": "$msCompile"
-        }
+        },
+        {
+            "label": "buildObserver",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/src/Observer/Observer.sln"
+            ],
+            "problemMatcher": "$msCompile"
+        },
     ]
 }
