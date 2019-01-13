@@ -14,6 +14,7 @@ namespace ObserverPattern
 
             CurrentConditionalDisplay conditionalDisplay = new CurrentConditionalDisplay(weatherData);
             StatisticsDisplay statisticsDisplay = new StatisticsDisplay(weatherData);
+            ForecastDisplay forecastDisplay = new ForecastDisplay(weatherData);
 
             weatherData.SetMeasurements(26, 65, 30);
             weatherData.SetMeasurements(30, 70, 29);
