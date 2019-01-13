@@ -15,9 +15,11 @@ namespace ObserverPattern
             CurrentConditionalDisplay conditionalDisplay = new CurrentConditionalDisplay(weatherData);
             StatisticsDisplay statisticsDisplay = new StatisticsDisplay(weatherData);
             ForecastDisplay forecastDisplay = new ForecastDisplay(weatherData);
+            HeatIndexDisplay heatIndexDisplay = new HeatIndexDisplay(weatherData);
 
-            weatherData.SetMeasurements(26, 65, 30);
-            weatherData.SetMeasurements(30, 70, 29);
+            weatherData.SetMeasurements(26, 65, 760);
+            weatherData.SetMeasurements(30, 70, 750);
+            weatherData.SetMeasurements(0, 90, 790);
 
             Console.ReadLine();
         }
