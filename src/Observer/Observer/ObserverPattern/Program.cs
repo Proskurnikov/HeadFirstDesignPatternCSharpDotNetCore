@@ -21,6 +21,7 @@ namespace ObserverPattern
             weatherData.SetMeasurements(30, 70, 750);
             weatherData.SetMeasurements(0, 90, 790);
 
+            //TODO: Prepare for CLI and VS Code
             Console.ReadLine();
         }
     }
