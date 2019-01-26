@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverPattern", "Observer\ObserverPattern.csproj", "{D6476EC9-BD95-4612-AF0E-50F367DE1233}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{D6476EC9-BD95-4612-AF0E-50F367DE1233}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
