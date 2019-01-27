@@ -2,6 +2,17 @@
     "version": "2.0.0",
     "tasks": [
         {
+            "label": "eventObserver",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/src/Observer/EventObserver/EventObserver.sln",
+                "/p:DefineConstants=vscode"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
             "label": "buildBuiltinObserver",
             "command": "dotnet",
             "type": "process",

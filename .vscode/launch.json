@@ -4,6 +4,17 @@
    // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
    "version": "0.2.0",
    "configurations": [
+       {
+           "name": "Observer using Event .NET Core Launch (console)",
+           "type": "coreclr",
+           "request": "launch",
+           "preLaunchTask": "eventObserver",
+           "program": "${workspaceFolder}/src/Observer/EventObserver/EventObserver/bin/Debug/netcoreapp2.1/EventObserver.dll",
+           "args": [],
+           "cwd": "${workspaceFolder}/src/Observer/EventObserver/",
+           "stopAtEntry": false,
+           "console": "internalConsole"
+       },
         {
             "name": "Observer (build-in) .NET Core Launch (console)",
             "type": "coreclr",
