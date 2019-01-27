@@ -5,13 +5,36 @@
    "version": "0.2.0",
    "configurations": [
        {
+           "name": "Observer using Event .NET Core Launch (console)",
+           "type": "coreclr",
+           "request": "launch",
+           "preLaunchTask": "eventObserver",
+           "program": "${workspaceFolder}/src/Observer/EventObserver/EventObserver/bin/Debug/netcoreapp2.1/EventObserver.dll",
+           "args": [],
+           "cwd": "${workspaceFolder}/src/Observer/EventObserver/",
+           "stopAtEntry": false,
+           "console": "internalConsole"
+       },
+        {
+            "name": "Observer (build-in) .NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "buildBuiltinObserver",
+            "program": "${workspaceFolder}/src/Observer/BuiltinObserver/WeatherStation/bin/Debug/netcoreapp2.1/WeatherStation.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/Observer/BuiltinObserver",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        },
+       {
            "name": "Observer .NET Core Launch (console)",
            "type": "coreclr",
            "request": "launch",
            "preLaunchTask": "buildObserver",
-           "program": "${workspaceFolder}/src/Observer/Observer/bin/Debug/netcoreapp2.1/Observer.dll",
+           "program": "${workspaceFolder}/src/Observer/Observer/ObserverPattern/bin/Debug/netcoreapp2.1/ObserverPattern.dll",
            "args": [],
-           "cwd": "${workspaceFolder}/src/Observer",
+           //TODO: Change work directory and task.json
+           "cwd": "${workspaceFolder}/src/Observer/Observer/", 
            "stopAtEntry": false,
            "console": "internalConsole"
        },

@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is C# code done with .Net Core 2 and VS Code 1.3.
+This is C# code done with .Net Core 2, VS Code 1.3 and Visual Studio 2017.
 
 ## How to use
 
@@ -16,6 +16,14 @@ It can be run with Visual Studio or VS Code (and CLI of course)
 
 It were added for run from VS in order to console window will keep open
 
-## Strategy
+## 1. Strategy
 
 SimpleQuack is like Quack class in the book. This name was changed because msbuild compiler said "'Quack': member names cannot be the same as their enclosing type [Strategy]"
+
+## 2. Observer
+
+### Observer
+
+### Built-in Observer
+
+### Observer using Events

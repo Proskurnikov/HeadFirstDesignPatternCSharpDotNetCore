@@ -2,6 +2,28 @@
     "version": "2.0.0",
     "tasks": [
         {
+            "label": "eventObserver",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/src/Observer/EventObserver/EventObserver.sln",
+                "/p:DefineConstants=vscode"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "buildBuiltinObserver",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/src/Observer/BuiltinObserver/WeatherStation.sln",
+                "/p:DefineConstants=vscode"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
             "label": "buildStrategy",
             "command": "dotnet",
             "type": "process",
@@ -18,7 +40,8 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/src/Observer/Observer.sln"
+                "${workspaceFolder}/src/Observer/Observer/Observer.sln",
+                "/p:DefineConstants=vscode"
             ],
             "problemMatcher": "$msCompile"
         },
