@@ -11,9 +11,6 @@ namespace CoffeeDecorator
             Description = "Espresso";
         }
 
-        public override double Cost()
-        {
-            return 1.99;
-        }
+        public override double Cost => 1.99;
     }
 }

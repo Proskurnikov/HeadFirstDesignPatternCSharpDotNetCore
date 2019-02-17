@@ -16,6 +16,6 @@ namespace CoffeeDecorator.Condiment
 
         public override string Description => beverage.Description + ", Steamed Milk";
 
-        public override double Cost() => beverage.Cost() + .10;
+        public override double Cost => beverage.Cost + .10;
     }
 }

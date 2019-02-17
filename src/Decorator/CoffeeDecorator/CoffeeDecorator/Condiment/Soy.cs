@@ -16,6 +16,6 @@ namespace CoffeeDecorator.Condiment
 
         public override string Description => beverage.Description + ", Soy";
 
-        public override double Cost() => beverage.Cost() + .15;
+        public override double Cost => beverage.Cost + .15;
     }
 }

@@ -11,9 +11,6 @@ namespace CoffeeDecorator
             Description = "House Blend Coffee";
         }
 
-        public override double Cost()
-        {
-            return .89;
-        }
+        public override double Cost => .89;
     }
 }

@@ -10,12 +10,12 @@ namespace CoffeeDecorator
             Console.WriteLine("*** Decorator Pattern ***");
 
             Beverage beverage = new Espresso();
-            Console.WriteLine(beverage.Description + " $" + beverage.Cost());
+            Console.WriteLine(beverage.Description + " $" + beverage.Cost);
 
             beverage = new Mocha(beverage);
             beverage = new Mocha(beverage);
 
-            Console.WriteLine(beverage.Description + " $" + beverage.Cost());
+            Console.WriteLine(beverage.Description + " $" + beverage.Cost);
 
             Console.ReadLine();
         }

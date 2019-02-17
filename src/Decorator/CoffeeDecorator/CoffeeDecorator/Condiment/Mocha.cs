@@ -16,6 +16,6 @@ namespace CoffeeDecorator.Condiment
 
         public override string Description => beverage.Description + ", Mocha";
 
-        public override double Cost() => beverage.Cost() + .2;
+        public override double Cost => beverage.Cost + .2;
     }
 }
