@@ -6,10 +6,7 @@ namespace CoffeeDecorator
 {
     class HouseBlend : Beverage
     {
-        public HouseBlend()
-        {
-            Description = "House Blend Coffee";
-        }
+        public override string Description => "House Blend";
 
         public override double Cost => .89;
     }
