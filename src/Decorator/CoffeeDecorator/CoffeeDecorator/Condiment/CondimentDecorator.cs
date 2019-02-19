@@ -6,6 +6,6 @@ namespace CoffeeDecorator.Condiment
 {
     public abstract class CondimentDecorator : Beverage
     {
-        public override abstract string Description { get; }
+        
     }
 }

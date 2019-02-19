@@ -6,7 +6,16 @@ namespace CoffeeDecorator
 {
     public abstract class Beverage
     {
-        public virtual string Description { get => "Unknown beverage"; } 
+        public enum BeverageSize
+        {
+            Tall,
+            Grande,
+            Venti
+        }
+
+        public virtual BeverageSize Size { get => BeverageSize.Grande; }
+
+        public virtual string Description { get => Size.ToString(); } 
         public abstract double Cost { get; }
     }
 }
